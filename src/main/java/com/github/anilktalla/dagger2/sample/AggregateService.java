@@ -14,7 +14,7 @@ public class AggregateService implements IAggregateService {
 	}
 
 	public String aggregate() {
-		return fooService.foo() + barService.bar();
+		return "Hello "+ fooService.foo() + barService.bar();
 	}
 
 }
